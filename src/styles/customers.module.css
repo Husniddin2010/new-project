@@ -1,0 +1,121 @@
+.orderDiv {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 40px;
+}
+.calendar {
+  display: flex;
+}
+.xat{
+  width: 28px;
+  height: 28px;
+  border-radius: 2px;
+  border: 1px solid #2D9CDB;
+  background-color: unset;
+}
+.most{
+  margin-top: 50px;
+  width: 700px;
+  background-color: white;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 16px;
+  padding: 20 30px;
+}
+.prise{
+  background: #00B074;
+  margin-top: 50px;
+  width: 400px;
+  color: white;
+  background-color: #00b043;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 16px;
+  padding: 20 30px;
+}
+.prise1{
+  width: 400px;
+  color: white;
+  background-color: #014d33;
+  border: 1px solid  #014d33;
+  border-radius: 16px;  
+  margin-left: -30px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+  padding: 20 30px;
+}
+.yeager{
+  margin-top: 50px;
+  width: 1000px;
+  background-color: white;
+  border: 1px solid rgb(241, 241, 241);
+  border-radius: 16px;
+  padding: 20 30px;
+}
+.status {
+  display: flex;
+  justify-content: center;
+  width: 212px;
+  height: 68px;
+  background-color: white;
+  border-radius: 12px;
+}
+.status img {
+  width: 24px;
+  height: 24px;
+  margin: auto 0;
+}
+.status select {
+  outline-style: none;
+  border: none;
+  font-size: 16px;
+}
+.th div {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.th img {
+  width: 10px;
+  height: 6px;
+}
+.orderTable {
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+  border-collapse: collapse;
+}
+.orderTable thead {
+  background-color: #2d9cdb;
+  color: white;
+}
+.orderTable .tr th {
+  padding: 24px 0;
+}
+.orderTable .tr th:first-child,
+.orderTable .tr td:first-child {
+  padding-left: 70px;
+}
+.orderTable .tr td {
+  padding: 24px 0;
+}
+
+.orderTable .th:nth-child(1) {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.orderTable .th:nth-child(6) {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.orderTable tbody .tr:hover {
+  background-color: aliceblue;
+}
+.orderTable .td:nth-child(1) {
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.orderTable .td:nth-child(8) {
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
